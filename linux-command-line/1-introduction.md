@@ -9,9 +9,9 @@ Ou seja, conforme você for digitando comandos, os resultados irão aparecendo
 após o seu envio. Exemplo:
 
 ```bash
-user@machine:~/softcom$ echo 'Hello, Terminal!'
+user@machine:~$ echo 'Hello, Terminal!'
 Hello, World!
-user@machine:~/softcom$ _
+user@machine:~$ _
 ```
 
 Onde a linha 1 indica o _prompt_ (`user@machine`) e o diretório de trabalho
@@ -40,6 +40,15 @@ entre eles. Caso você tenha curiosidade em saber qual _shell_ você está
 utilizando, digite:
 
 ```bash
-~/softcom$ echo $SHELL
+~$ echo $SHELL
   /bin/bash
 ```
+
+## Atividades
+
+1. Descompacte o arquivo `softcom.zip` na sua **pasta de usuário**, caso queira
+   saber qual a sua pasta de usuário, execute o comando <kbd>echo $HOME</kbd>
+   no terminal e veja o resultado.
+2. No terminal, execute o comando <kbd>cd softcom</kbd> no terminal. Essa pasta
+   será utilizada para a execução de exemplos e atividades no decorrer do
+   curso.
