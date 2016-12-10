@@ -1,2 +1,3 @@
-# training--command-line
-Training course of command line of SoftcomEJ.
+# Training Course: Command Line
+
+> Training course of command line of SoftcomEJ.
