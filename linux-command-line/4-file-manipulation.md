@@ -3,7 +3,7 @@
 ## Criando um diretório
 
 Para criar um diretório no diretório atual utiliza-se o comando
-<kbd>mkdir [destino]</kbd> (*Make Directory*). Veja no exemplo:
+<kbd>mkdir [destino]</kbd> (_Make Directory_). Veja no exemplo:
 
 
 ```bash
@@ -15,7 +15,7 @@ Para criar um diretório no diretório atual utiliza-se o comando
 
 Você pode criar um diretório com um caminho relativo ou absoluto. Porém ele só
 cria um diretório por vez. Caso você queira todos os diretórios relacionados ao
-caminho, utiliza-se o parâmetro `-p`. Veja:
+caminho, utiliza-se o parâmetro <kbd>-p</kbd>. Veja:
 
 ```bash
 ~/softcom$ mkdir -p Music/Gorillaz/2001-Gorillaz
@@ -69,7 +69,7 @@ muda a data de última manipulação.
 ## Copiando arquivos
 
 Um arquivo ou diretório pode ser copiado com o comando
-<kbd>cp [origem] [destino]</kbd> (*Copy*). Lembre-se que o comando
+<kbd>cp [origem] [destino]</kbd> (_Copy_). Lembre-se que o comando
 <kbd>cp</kbd> aceita qualquer caminho. Se você quiser copiar um arquivo de/para
 outro diretório, basta especificar o caminho da origem ou destino. Caso você
 direcione o destino para um diretório, o arquivo será copiado para dentro desse
@@ -84,8 +84,8 @@ diretório com o mesmo nome da origem. Veja um exemplo.
 ```
 
 Para copiar diretórios (e todo o seu conteúdo interno), é necessário utilizar o
-parâmetro `-r` (*Recursive*). Dessa forma, todos os arquivos hierarquicamente
-abaixo desse diretório, serão copiados. Veja:
+parâmetro <kbd>-r</kbd> (_Recursive_). Dessa forma, todos os arquivos
+hierarquicamente abaixo desse diretório, serão copiados. Veja:
 
 ```bash
 ~/softcom$ cp -r Music MusicCopy
@@ -100,9 +100,9 @@ abaixo desse diretório, serão copiados. Veja:
 ## Movendo arquivos
 
 Você pode mover, também chamado de recortar, arquivos com o comando
-<kbd>mv [origem] [destino]</kbd> (*Move*). O comando <kbd>mv</kbd> opera de
+<kbd>mv [origem] [destino]</kbd> (_Move_). O comando <kbd>mv</kbd> opera de
 forma similar ao comando <kbd>cp</kbd>, com a diferença de que não é necessário
-utilizar o parâmetro `-r` quando for necessário mover diretórios.
+utilizar o parâmetro <kbd>-r</kbd> quando for necessário mover diretórios.
 
 Veja um exemplo:
 
@@ -138,7 +138,7 @@ basta você manter o arquivo no mesmo diretório. Veja:
 Para remover arquivos, utiliza-se o comando <kbd>rm [destino]</kbd> (*Remove*),
 assim como o comando <kbd>rmdir</kbd>, o comando <kbd>rm</kbd> não pode ser
 “desfeito”, pois exclui permanentemente o arquivo. Para remover diretórios não
-vazios, utiliza-se também o parâmetro `-r`. Veja:
+vazios, utiliza-se também o parâmetro <kbd>-r</kbd>. Veja:
 
 ```bash
 ~/softcom$ rm MusicCopy/copy1

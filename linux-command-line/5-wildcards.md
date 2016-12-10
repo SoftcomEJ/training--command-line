@@ -1,11 +1,11 @@
-# Wildcards
+# _Wildcards_
 
 ## Introdução
 
-Wildcards é um conjunto de padrões para definir conjunto de arquivos ou
-diretórios. Utiliza-se wildcards para criar expressões que facilitem a busca e
-a filtragem de resultados na saída do terminal. O conjunto mais básico de
-wildcards é composto de:
+_Wildcards_ é um conjunto de padrões para definir conjunto de arquivos ou
+diretórios. Utiliza-se _wildcards_ para criar expressões que facilitem a busca
+e a filtragem de resultados na saída do terminal. O conjunto mais básico de
+_wildcards_ é composto de:
 
 * `*`- Representa 0 ou mais caracteres;
 * `?` - Representa um caracter;
@@ -15,7 +15,7 @@ wildcards é composto de:
 
 Imagine que temos um diretório com vários arquivos de imagens com diferentes
 extensões e queremos somente listar as imagens que possuem a extensão “png”.
-Podemos utilizar wildcards para facilitar nossa tarefa:
+Podemos utilizar _wildcards_ para facilitar nossa tarefa:
 
 ```bash
 ~/softcom$ cd Images
@@ -36,8 +36,8 @@ utilizar também:
 ```
 
 Por exemplo, suponha que você queira listar todos os caracteres que começam com
-“f” ou “p”. Você pode utilizar o wildcard `[ ]` para especificar os caracteres
-da coleção em seu interior, veja:
+“f” ou “p”. Você pode utilizar o _wildcard_ `[ ]` para especificar os
+caracteres da coleção em seu interior, veja:
 
 ```bash
 ~/softcom$ cd Documents
@@ -46,7 +46,7 @@ da coleção em seu interior, veja:
 ~/softcom/Documents$ cd ..
 ```
 
-O wildcard `[ ]` também aceita sequências predefinidas. Um exemplo são os
+O _wildcard_ `[ ]` também aceita sequências predefinidas. Um exemplo são os
 numerais (de 0 a 9), que podem ser ser explicitados na forma de  `[0-9]`. Ou
 seja, caso você precise listar todos os arquivos que terminem com um número,
 você pode por exemplo:

@@ -3,12 +3,12 @@
 ## Diretório de trabalho
 
 Em interfaces de linha de comando, um conceito importante é o **Diretório de
-Trabalho** (*Working Directory*), que é nada mais do que o atual diretório onde
+Trabalho** (_Working Directory_), que é nada mais do que o atual diretório onde
 os comandos do terminal são executados. Muitos comandos usam a informação do
 diretório de trabalho para serem executados.
 
 Para saber em qual diretório você se encontra, use o comando <kbd>pwd</kbd>
-(*Print Working Directory*).
+(_Print Working Directory_).
 
 ```bash
 ~/softcom$ pwd
@@ -70,10 +70,10 @@ Para indicar caminhos para um comando, tal como o <kbd>ls</kbd>, podemos
 utilizar tanto **Caminhos relativos** quanto **Caminhos absolutos**. Os
 arquivos em sistemas Linux são organizados de forma hierárquica, como uma
 árvore de várias folhas, onde a raiz dessa árvore é indicada pelo diretório
-***root*** (`/`).
+**_root_** (`/`).
 
 Caminhos absolutos são caminhos que indicam todo o caminho a partir do
-diretório *root* do sistema. Por isso, caminhos absolutos sempre começam com
+diretório _root_ do sistema. Por isso, caminhos absolutos sempre começam com
 `/`. Já caminhos relativos são sempre referenciados pelo diretório de trabalho
 do terminal. Dessa forma, caminhos relativos nunca começam com `/`, mas sim com
 uma referência direta do diretório o qual se pretende alcançar. Veja o exemplo:
@@ -126,7 +126,7 @@ Diretório pai (`..`), ou seja, o diretório de nível hierárquico superior.
 ## Mudando o diretório de trabalho
 
 Para mudar o diretório de trabalho, utiliza-se o comando
-<kbd>cd [destino]</kbd> (*Change Directory*). Veja:
+<kbd>cd [destino]</kbd> (_Change Directory_). Veja:
 
 ```bash
 ~/softcom$ cd Documents
@@ -165,7 +165,7 @@ Toda vez que você quiser acessar um diretório de um caminho, utilize o
 <kbd>Tab</kbd> para autocompletar ou listar opções disponíveis.
 
 Caso você um dia precise de ajuda com qualquer comando que seja, utilize o
-comando <kbd>help [comando]</kbd> ou <kbd>man [comando]</kbd> (*Manual*) para
+comando <kbd>help [comando]</kbd> ou <kbd>man [comando]</kbd> (_Manual_) para
 visualizar um manual sobre o comando.
 
 

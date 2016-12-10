@@ -38,7 +38,7 @@ bom barra (`\ `).
 Um arquivo é considerado “oculto” em Linux se seu nome se inicia com um ponto
 (`.`). Por padrão, o comando <kbd>ls</kbd> não exibe arquivos ocultos a não ser
 se for explicitamente requisitado. Para exibir arquivos ocultos, utiliza-se o
-parâmetro `-a`. Veja:
+parâmetro <kbd>-a</kbd>. Veja:
 
 ```bash
 ~/softcom$ ls
